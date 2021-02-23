@@ -17,9 +17,10 @@ h1{
    
     font-family: 'Kalam', cursive;
 }
-h2{
-    align-items: center;
-}
+.herbal h2{
+    
+   text-align: center;
+  }
 .card-body{
     margin-left: 70px;
     margin-right: 50px;
