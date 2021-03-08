@@ -2,6 +2,15 @@ img{
    height:500px;
    width:500px;
 }
+.navbar-nav{
+    margin-right:0;
+    
+}
+
+.nav-link{
+    margin-right:0;
+    
+}
 .veggies{
     display:grid;
     padding:20px;
@@ -10,19 +19,42 @@ img{
     background-color: antiquewhite;
     
 }
+#quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(255, 187, 0),rgb(255, 255, 255));
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
 h1{
  display:flex;
  justify-content: center;
     margin:100px;
-   
+   padding:50px;
     font-family: 'Kalam', cursive;
 }
 .herbal h2{
     
    text-align: center;
   }
-.card-body{
-    margin-left: 70px;
-    margin-right: 50px;
-    background-color: aqua;
+  .card-deck{
+      display:flex;
+      flex-wrap: wrap;
+  }
+  .card-body{
+      margin-left:100px;
+  }
+.content{
+    display: flex;
+    flex-direction: column;
+    margin:150px;
+    padding-left: 100px;
+    width: 400px;
 }
